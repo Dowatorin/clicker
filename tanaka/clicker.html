@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>すべてが無駄なクリッカー</h1>
+<p id="title">社会人１年目</p>
+<p id="words">今日からバリバリ頑張ろう！</p>
+<body id= "back">
+    <div id="game-container">
+        <div id="info-left">
+            <p id="salary">作業効率: 1</p>
+            <p id="money">給料: ０円</p> <!-- お金を表示する要素 -->
+        </div>
+        <div id="clickable-area">
+            <p id="click-text">納品: 0</p>
+            <div id="score-increment">+1</div>
+
+        </div>
+        <div id="info-right">
+            <p id="items">エナジー: 0</p> <!-- アイテムを表示する要素 -->
+            
+            <button id="buy-item"><i class = "key-icon">F</i> エナジードリンク: 10円</button> <!-- アイテム購入ボタン -->
+        </div>
+    </div>
+
+    <div id="custom-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <p id="modal-message">金欠だ</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
